@@ -5,10 +5,6 @@ author: charlotte mcclintock
 testing streamlit application implementation
 """
 # %%
-
-from flask import Flask
-app = Flask(__name__)
-
 import streamlit as st
 
 
@@ -89,7 +85,6 @@ def main():
                 st.info(doc)
 
                 st.divider()
-
 
 
 if __name__ == "__main__":
